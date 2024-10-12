@@ -22,8 +22,7 @@ body{
 }
 
 .qr-code{
- /*   width: 100%;
-    height: auto;*/
+ 
      width:220px;
     height: 350px;
     background-color: white;
@@ -48,9 +47,9 @@ body{
 
  img {
        
-        display: block; /* Ensures there are no extra spaces around the image */
-        width: 500 px; /* Adjust the width if necessary */
-        height: auto; /* Keeps the aspect ratio */
+        display: block; 
+        width: 500 px; 
+        height: auto; 
         border-radius: 10px;
         display: block;
         margin-left: auto;
@@ -88,10 +87,10 @@ h1{
 
 @media (max-width: 768px) {
     body {
-        justify-content: flex-start;  /* Ensure content is vertically aligned */
+        justify-content: flex-start; 
         padding-top: 20px;  
         margin: 20%;      
-          /* Add padding to avoid text being stuck at the top */
+         
     }
  }
    
